@@ -179,3 +179,52 @@ body{
     border-radius: 23px;
 
 }
+.harusittp{
+    /* background-color: violet; */
+    height: 550px;
+    width: 90%;
+    position: relative;
+    display: grid;
+    margin-top: 80px;
+}
+.kenapa{
+    background-color: #cccccc;
+    height: 40px;
+    display: flex;
+    width: 550px;
+    display: flex;
+    margin-top: 80px;
+    border-radius: 0 25px 25px 0;
+}
+.harus{
+    margin-top: -16px;
+    margin-left: 12px;
+}
+
+.ittp{
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    border: 2px red solid;
+    border-radius: 25px;
+    justify-items: center;
+    display: grid; 
+    position: relative; 
+}
+
+.display h3{
+    color: white;
+}
+
+.ittp p{
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+}
+.judul2{
+    justify-content: space-around;
+    justify-items: center;
+    height: 30%;
+    border-radius: 25px 25px 0 0;
+    background: rgb(228, 62, 62);
+}
