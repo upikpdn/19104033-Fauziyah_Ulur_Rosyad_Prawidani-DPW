@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+body{
+    padding: 0px;
+    margin: 0;
+    background-image: url(https://ittelkom-pwt.ac.id/wp-content/uploads/2021/04/bg.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-color: #e5e5e5;
+    height: 30px;
+    display: flex;
+    justify-content:end;
+}
+.sosmed{
+    display: flex;
+    justify-content: space-evenly;
+    width: 125px;
+    margin-right: 200px;
+    font-size: 18px;
+    margin-top:5px;
+}
+.sosmed .instagram:hover{
+    cursor: pointer;
+    color: red;
+}
+.sosmed .facebook:hover{
+    cursor: pointer;
+    color: red;
+}
+.sosmed .yutub:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+.bebas{
+    display: flex;
+    height: 10%;
+    background: rgb(228, 62, 62);
+    border-radius: 25px 25px 0 0;
+    top : 0;
+    right: 0;
+    left: 0;
+    padding: 25px;
+    position: absolute;
+}
+
+.navbar{
+    width: 56%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: -28px;
+    margin-right: 65px;
+    
+}
+.apa{
+    background-color: violet;
+    height: 550px;
+    width: 90%;
+    position: relative;
+    display: grid;
+    margin: 25px auto;
+    border-radius: 25px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 40);
+}
+.bebas img{
+    margin-top: 0px;
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+}
+.search{
+    position: relative;
+    width: 22%;
+    margin-top: 0;
+}
+
+.search input{
+    margin-top: 8px;
+    height: 40px;
+    background-color: #e25155;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font: weight 600px; ;
+    color: white;
+}
+.search input::placeholder{
+    color: white;
+}
+
+.iconsearch{
+    top: 22%;
+    right: 24px;
+    position: absolute;
+    color: white;
+    font-size: 32px;
+}
+
+.carousel img{
+    margin-top: 100px;
+    margin-left: 0;
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    border-radius: 0 0 25px 25px;
+}
+.caption{
+    position: absolute;
+    /* border: 2px solid; */
+    margin-top: 190px;
+    width: 400px;
+    margin-left: 150px;
+}
+.caption h1{
+    color: red;
+}
+
+.info{
+    background-color:white;
+    height: 260px;
+    width: 90%;
+    position: relative;
+    display: grid;
+    margin: 90px auto;
+    border-radius: 25px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 40);
+}
+
+.card{
+    width: 250px;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    justify-items: center;
+}
+.display p{
+    text-align: left;
+    font-size: 15px;
+}
+.icon{
+    font-size: 25px;
+    margin: 20px 12px;
+}
+.btn{
+    background: none;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 13px;
+    width: max-content;
+    display: grid;
+    margin: 18px auto;
+    padding: 7px 13px;
+}
+
+.apaya{
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+    justify-items: center;
+    width: 220px;
+    height: 50px;
+}
+
+.card:hover{
+    transform: translateY(-45px);
+    transition: .4s;
+    background: linear-gradient(#db292f, #741216);
+    color: white;
+    border-radius: 23px;
+
+}
